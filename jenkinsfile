@@ -2,9 +2,9 @@ pipeline {
 
     agent any
     stages {
-        stage('build stage') {
+        stage('job running') {
             steps {
-                echo 'mvn --version'
+                echo 'new push encountered'
             }
         }
     }
